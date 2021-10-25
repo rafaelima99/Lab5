@@ -7,7 +7,7 @@
     tools:context=".MainActivity3">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="81dp"
         android:text="Save"
+        android:onClick="buttonClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -15,12 +15,12 @@
         android:layout_marginBottom="1dp"
         android:text="TextView"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/notes"
+        app:layout_constraintBottom_toTopOf="@+id/notesListView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/notes"
+        android:id="@+id/notesListView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="1dp"
